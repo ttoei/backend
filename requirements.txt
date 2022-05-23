@@ -4,3 +4,4 @@ numpy~=1.22.3
 opencv-python~=4.5.5.64
 tensorflow
 pythainlp~=3.0.8
+flask-cors

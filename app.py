@@ -6,8 +6,10 @@ import os
 from werkzeug.utils import secure_filename
 import cv2
 import modeltostring
+from flask_cors import CORS
 
 app = Flask(__name__)
+cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 UPLOAD_FOLDER = 'static/uploads/'
 
