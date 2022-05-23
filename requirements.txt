@@ -1,0 +1,6 @@
+flask~=2.1.2
+werkzeug~=2.1.2
+numpy~=1.22.3
+opencv-python~=4.5.5.64
+tensorflow
+pythainlp~=3.0.8
